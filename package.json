@@ -10,14 +10,20 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
+		"@iconify-json/iconoir": "^1.1.33",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.27.4",
+		"@unocss/preset-icons": "^0.57.4",
+		"@unocss/reset": "^0.57.4",
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-svelte": "^2.30.0",
+		"flowbite": "^2.1.1",
+		"flowbite-svelte": "^0.44.19",
 		"prettier": "^3.0.0",
 		"prettier-plugin-svelte": "^3.0.0",
 		"svelte": "^4.0.5",
+		"unocss": "^0.57.4",
 		"vite": "^4.4.2"
 	},
 	"type": "module"
