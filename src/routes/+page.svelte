@@ -62,7 +62,9 @@
 		/>
 	</div>
 	<div class="pt-30 mb-30">
-		<h1 class="text-4xl text-center mb-10 font-black">A quoi sert un bilan neuropsychologique ?</h1>
+		<h1 class="text-4xl mx-auto w-90% lg:text-center mb-10 font-black">
+			A quoi sert un bilan neuropsychologique ?
+		</h1>
 		<div class="flex flex-wrap justify-center mx-auto">
 			<div class="w-130 flex flex-col items-center m-5">
 				<lottie-player
