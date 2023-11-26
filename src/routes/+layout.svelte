@@ -14,7 +14,7 @@
 	class="fixed top-0 w-full h-20 flex items-center justify-between font-sans border-b-2 bg-white z-10"
 >
 	<a class="flex-none flex items-end mx-2 gap-3" href="/">
-		<img src="logo_only.svg" alt="logo" class="w-20" />
+		<img src="logo_only.svg" alt="logo" width="70" height="20" />
 		<div class="text-center hidden md:block">
 			<h1 class="font-bold text-5">Maïlys Miquel</h1>
 			<h2 class="font-light text-3">NEUROPSYCHOLOGUE</h2>
