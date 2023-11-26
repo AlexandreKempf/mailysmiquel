@@ -12,7 +12,7 @@
 
 <div class="font-sans">
 	<div class="flex flex-wrap justify-center mx-auto py-30">
-		<div class="w-110 m-15">
+		<div class="w-110 my-15 mx-10">
 			<h1 class="text-4xl mb-5 font-black">Informations pratiques</h1>
 			<p class="my-2 font-light">Le cabinet est ouvert le vendredi de 8h à 20h.</p>
 			<div class="my-2 flex items-center gap-3">

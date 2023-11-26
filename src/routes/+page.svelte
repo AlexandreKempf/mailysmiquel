@@ -15,7 +15,7 @@
 		<div class="w-70% lg:w-130">
 			<lottie-player src="animation10.json" background="transparent" speed="1" loop autoplay />
 		</div>
-		<div class="w-150 m-10">
+		<div class="w-150 mx-10">
 			<h1 class="text-4xl mb-5 font-black">Besoin d'un bilan neuropsychologique ?</h1>
 			<div class="mb-15 font-light">
 				<p class="mb-2">
@@ -34,7 +34,7 @@
 		</div>
 	</div>
 	<div class="flex flex-wrap justify-center mx-auto py-30 bg-blue text-white">
-		<div class="w-150 m-10">
+		<div class="w-150 mx-10">
 			<h1 class="text-4xl mb-5 font-black">Que sont les fonctions cognitives ?</h1>
 			<div class="mb-15 font-light">
 				<p class="mb-2">
@@ -62,13 +62,13 @@
 		/>
 	</div>
 	<div class="pt-30 mb-30">
-		<h1 class="text-4xl mx-auto w-90% lg:text-center mb-10 font-black">
+		<h1 class="text-4xl mx-10 w-90% md:text-center mb-10 font-black">
 			A quoi sert un bilan neuropsychologique ?
 		</h1>
-		<div class="flex flex-wrap justify-center mx-auto">
-			<div class="w-130 flex flex-col items-center m-5">
+		<div class="flex flex-wrap md:justify-center mx-10">
+			<div class="max-w-130 flex flex-col my-5">
 				<lottie-player
-					class="h-50 lg:h-70 mb-5"
+					class="h-50 md:h-70 mb-5"
 					src="animation11.json"
 					background="transparent"
 					speed="1"
@@ -85,9 +85,10 @@
 					maison.
 				</p>
 			</div>
-			<div class="w-130 flex flex-col items-center m-5">
+			<div class="w-10" />
+			<div class="w-130 flex flex-col my-5">
 				<lottie-player
-					class="h-50 lg:h-70 mb-5"
+					class="h-50 md:h-70 mb-5"
 					src="animation12.json"
 					background="transparent"
 					speed="1"
