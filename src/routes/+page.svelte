@@ -15,7 +15,7 @@
 		<div class="w-70% lg:w-130">
 			<lottie-player src="animation10.json" background="transparent" speed="1" loop autoplay />
 		</div>
-		<div class="w-150 mx-5">
+		<div class="w-150">
 			<h1 class="text-4xl mb-5 font-black">Besoin d'un bilan neuropsychologique ?</h1>
 			<div class="mb-15 font-light">
 				<p class="mb-2">
