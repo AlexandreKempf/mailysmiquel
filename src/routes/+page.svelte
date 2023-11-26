@@ -11,7 +11,7 @@
 </svelte:head>
 
 <div class="font-sans">
-	<div class="flex flex-wrap justify-center mx-auto py-30">
+	<div class="flex flex-wrap justify-center mx-5 py-30">
 		<div class="w-70% lg:w-130">
 			<lottie-player src="animation10.json" background="transparent" speed="1" loop autoplay />
 		</div>
