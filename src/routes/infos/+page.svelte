@@ -2,10 +2,18 @@
 	import { Button } from 'flowbite-svelte';
 </script>
 
+<svelte:head>
+	<title>Maïlys Miquel - Infos</title>
+	<meta
+		name="description"
+		content="Neuropsychologie Maïlys Miquel et informations sur son cabinet en Gironde, Langon. Pour enfants, adultes et personnes agées."
+	/>
+</svelte:head>
+
 <div class="font-sans">
 	<div class="flex flex-wrap justify-center mx-auto py-30">
 		<div class="w-110 m-15">
-			<h1 class="text-4xl mb-5 font-black">Information pratiques</h1>
+			<h1 class="text-4xl mb-5 font-black">Informations pratiques</h1>
 			<p class="my-2 font-light">Le cabinet est ouvert le vendredi de 8h à 20h.</p>
 			<div class="my-2 flex items-center gap-3">
 				<div class="i-iconoir-map-pin" />

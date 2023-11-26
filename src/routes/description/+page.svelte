@@ -2,6 +2,14 @@
 	import { Button } from 'flowbite-svelte';
 </script>
 
+<svelte:head>
+	<title>Maïlys Miquel</title>
+	<meta
+		name="description"
+		content="Mailys Miquel et son parcours académique et professionnel. Neuropsychologue en cabinet libéral vers Langon, en Gironde."
+	/>
+</svelte:head>
+
 <div class="font-sans">
 	<div class="flex flex-wrap-reverse justify-center mx-auto py-30">
 		<div class="w-130">

@@ -7,7 +7,6 @@
 </script>
 
 <svelte:head>
-	<title>Maïlys Miquel</title>
 	<link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
 </svelte:head>
 
@@ -25,7 +24,7 @@
 		<a href="/" class="font-bold hover:text-blue">Acceuil</a>
 		<a href="/description" class="font-bold hover:text-blue">Qui suis-je ?</a>
 		<a href="/tarifs" class="font-bold hover:text-blue">Tarifs</a>
-		<a href="/infos" class="font-bold hover:text-blue">Info pratiques</a>
+		<a href="/infos" class="font-bold hover:text-blue">Infos pratiques</a>
 	</div>
 
 	<div class="flex-none flex xl:mx-10 mx-3">
@@ -81,7 +80,7 @@
 					class="font-bold hover:text-blue"
 					on:click={() => {
 						isMenuDisplayed = false;
-					}}>Info pratiques</a
+					}}>Infos pratiques</a
 				>
 				<hr />
 			</div>

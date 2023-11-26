@@ -2,6 +2,14 @@
 	import { Button } from 'flowbite-svelte';
 </script>
 
+<svelte:head>
+	<title>Maïlys Miquel - Acceuil</title>
+	<meta
+		name="description"
+		content="Neuropsychologue Maïlys Miquel en Gironde, Langon, Barsac, Bazas, Cérons. Acceuil pour bilans neuropsychologiques, trouble de mémoire, d'attention."
+	/>
+</svelte:head>
+
 <div class="font-sans">
 	<div class="flex flex-wrap justify-center mx-auto py-30">
 		<div class="w-70% lg:w-130">

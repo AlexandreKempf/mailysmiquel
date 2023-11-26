@@ -2,6 +2,14 @@
 	import { Button } from 'flowbite-svelte';
 </script>
 
+<svelte:head>
+	<title>Maïlys Miquel - Tarifs</title>
+	<meta
+		name="description"
+		content="Tarifs bilans neurospychologiques de Mailys Miquel, Langon en Gironde."
+	/>
+</svelte:head>
+
 <div class="font-sans mt-40">
 	<h1 class="text-4xl mb-5 font-black text-center my-5">Grille de tarifs</h1>
 	<p class="text-center mb-1 w-80% mx-auto">
