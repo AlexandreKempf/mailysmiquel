@@ -27,7 +27,7 @@
 	</div>
 	<div class="flex flex-wrap justify-center mx-auto py-30 bg-blue text-white">
 		<div class="w-150 m-10">
-			<h1 class="text-4xl mb-5 font-black">Qu'est-ce que les fonctions cognitives ?</h1>
+			<h1 class="text-4xl mb-5 font-black">Que sont les fonctions cognitives ?</h1>
 			<div class="mb-15 font-light">
 				<p class="mb-2">
 					Les fonctions cognitives nous permettent de traiter les informations de notre environment
