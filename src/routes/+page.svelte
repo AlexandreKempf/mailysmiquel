@@ -12,7 +12,7 @@
 
 <div class="font-sans">
 	<div class="flex flex-wrap justify-center mx-5 py-30">
-		<div class="w-70% lg:w-130">
+		<div class="w-70% max-w-130">
 			<lottie-player src="animation10.json" background="transparent" speed="1" loop autoplay />
 		</div>
 		<div class="w-150">
@@ -53,7 +53,7 @@
 			</div>
 		</div>
 		<lottie-player
-			class="w-70% lg:w-130"
+			class="w-70% max-w-130"
 			src="animation3.json"
 			background="transparent"
 			speed="1"
@@ -68,7 +68,7 @@
 		<div class="flex flex-wrap md:justify-center mx-5">
 			<div class="max-w-130 flex flex-col my-5">
 				<lottie-player
-					class="h-50 md:h-70 mb-5"
+					class="h-60 md:h-70 mb-5"
 					src="animation11.json"
 					background="transparent"
 					speed="1"
@@ -88,7 +88,7 @@
 			<div class="w-10" />
 			<div class="w-130 flex flex-col my-5">
 				<lottie-player
-					class="h-50 md:h-70 mb-5"
+					class="h-60 md:h-70 mb-5"
 					src="animation12.json"
 					background="transparent"
 					speed="1"
@@ -107,7 +107,7 @@
 		</div>
 	</div>
 	<div class="flex flex-wrap justify-center mx-auto py-30 bg-blue text-white">
-		<div class="w-70% md: max-w-100 lg:max-w-130">
+		<div class="w-70% max-w-110">
 			<lottie-player src="animation4.json" background="transparent" speed="0.5" loop autoplay />
 		</div>
 		<div class="w-150 my-10 mx-5">
