@@ -3,10 +3,10 @@
 </script>
 
 <svelte:head>
-	<title>Maïlys Miquel - Acceuil</title>
+	<title>Maïlys Miquel - Accueil</title>
 	<meta
 		name="description"
-		content="Neuropsychologue Maïlys Miquel en Gironde, Langon, Barsac, Bazas, Cérons. Acceuil pour bilans neuropsychologiques, trouble de mémoire, d'attention."
+		content="Neuropsychologue Maïlys Miquel en Gironde, Langon, Barsac, Bazas, Cérons. Accueil pour bilans neuropsychologiques, trouble de mémoire, d'attention."
 	/>
 </svelte:head>
 

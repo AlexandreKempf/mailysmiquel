@@ -21,7 +21,7 @@
 		</div>
 	</a>
 	<div class="lg:grid grid-cols-4 grow justify-items-center place-items-center gap-2 hidden">
-		<a href="/" class="font-bold hover:text-blue">Acceuil</a>
+		<a href="/" class="font-bold hover:text-blue">Accueil</a>
 		<a href="/description" class="font-bold hover:text-blue">Qui suis-je ?</a>
 		<a href="/tarifs" class="font-bold hover:text-blue">Tarifs</a>
 		<a href="/infos" class="font-bold hover:text-blue">Infos pratiques</a>
@@ -56,7 +56,7 @@
 						isMenuDisplayed = false;
 					}}
 				>
-					Acceuil</a
+					Accueil</a
 				>
 				<hr />
 				<a
