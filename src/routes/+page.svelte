@@ -1,127 +1,137 @@
 <script>
-	import { Button, Listgroup, Label, Input } from 'flowbite-svelte';
-	import { onMount } from 'svelte';
-
-	let recognition;
-	let spokenText = [];
-	let selectedText = '';
-	let correctedText;
-
-	let selected = false;
-
-	const poem = [
-		'À cause de… chanson… grand danger me menace…',
-		'Porte de Nesle… Il faut, pour rentrer, que j’y passe…',
-		'Permets-moi donc d’aller coucher sous… sous ton toit !'
-	];
-
-	onMount(() => {
-		const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-		const SpeechGrammarList = window.SpeechGrammarList || window.webkitSpeechGrammarList;
-		recognition = new SpeechRecognition();
-		recognition.grammars = new SpeechGrammarList();
-		recognition.continuous = false;
-		recognition.lang = 'fr-FR';
-		recognition.interimResults = false;
-		recognition.maxAlternatives = 3;
-		recognition.onresult = (event) => {
-			spokenText = Object.values(event.results[0]).filter((e) => e.confidence != 0);
-		};
-	});
-
-	const Levenshtein = function (a, b) {
-		if (a.length == 0) return b.length;
-		if (b.length == 0) return a.length;
-
-		var matrix = [];
-
-		// increment along the first column of each row
-		var i;
-		for (i = 0; i <= b.length; i++) {
-			matrix[i] = [i];
-		}
-
-		// increment each column in the first row
-		var j;
-		for (j = 0; j <= a.length; j++) {
-			matrix[0][j] = j;
-		}
-
-		// Fill in the rest of the matrix
-		for (i = 1; i <= b.length; i++) {
-			for (j = 1; j <= a.length; j++) {
-				if (b.charAt(i - 1) == a.charAt(j - 1)) {
-					matrix[i][j] = matrix[i - 1][j - 1];
-				} else {
-					matrix[i][j] = Math.min(
-						matrix[i - 1][j - 1] + 1, // substitution
-						Math.min(
-							matrix[i][j - 1] + 1, // insertion
-							matrix[i - 1][j] + 1
-						)
-					); // deletion
-				}
-			}
-		}
-
-		return matrix[b.length][a.length];
-	};
+	import { Button } from 'flowbite-svelte';
 </script>
 
-<h1 class="text-center text-3xl m-10">Cyrano</h1>
-
-<div class="text-center">
-	<h2 class="text-xl mb-4">Completez la suite du poème</h2>
-	{#each poem as vers, idx}
-		<p>{idx == 0 ? '« ' : ''} {vers}</p>
-	{/each}
-	<p>... »</p>
-</div>
-
-<div class="text-center my-5">
-	<Button
-		on:click={() => {
-			recognition.start();
-		}}
-		color="alternative"
-	>
-		<div class="i-iconoir-microphone"></div>
-		Click to talk
-	</Button>
-</div>
-
-{#if spokenText.length != 0}
-	<h3 class="text-xl my-5">What did you say ?</h3>
-	<Listgroup
-		active={!selected}
-		items={spokenText}
-		let:item
-		on:click={(e) => {
-			selectedText = e.detail.transcript;
-			correctedText = e.detail.transcript;
-			selected = true;
-		}}
-	>
-		<span class={!selected || item.transcript == selectedText ? 'text-gray-900' : 'text-gray-200'}
-			>{item.transcript}</span
-		>
-	</Listgroup>
-
-	{#if selected}
-		<div class="my-5">
-			<h3 class="text-xl">Correct your poem</h3>
-			<p class="text-gray-600">Stay close to your poem, or it won't get validated</p>
+<div class="font-sans">
+	<div class="flex flex-wrap justify-center mx-auto py-30">
+		<div class="w-130">
+			<lottie-player src="animation10.json" background="transparent" speed="1" loop autoplay />
 		</div>
-		<Input bind:value={correctedText} class="border" />
+		<div class="w-150 m-10">
+			<h1 class="text-4xl mb-5 font-black">Besoin d'un bilan neuropsychologique ?</h1>
+			<div class="mb-15 font-light">
+				<p class="mb-2">
+					Un bilan neuropsychologique, aussi appelé bilan cognitif ou bilan psychométrique, évalue
+					les fonctions cognitives.
+				</p>
+				<p>
+					Il est utile pour les enfants en difficulté scolaire, pour les adultes s'interrogeant sur
+					leur fonctionnement intellectuel ou cognitif ou ayant souffert de lésions cérébrales, etc.
+				</p>
+			</div>
+			<div class="flex gap-2">
+				<Button class="text-black" color="alternative" href="/tarifs">Consulter les tarifs</Button>
+				<Button class="bg-orange text-black" href="/infos">Prendre rendez-vous</Button>
+			</div>
+		</div>
+	</div>
+	<div class="flex flex-wrap justify-center mx-auto py-30 bg-blue text-white">
+		<div class="w-150 m-10">
+			<h1 class="text-4xl mb-5 font-black">Qu'est-ce que les fonctions cognitives ?</h1>
+			<div class="mb-15 font-light">
+				<p class="mb-2">
+					Les fonctions cognitives nous permettent de traiter les informations de notre environment
+					et d'interagir avec celui-ci.
+				</p>
+				<p>Les plus couramment évaluées sont :</p>
+				<div class="ml-2">
+					<p>• le raisonnement</p>
+					<p>• l'attention</p>
+					<p>• la mémoire</p>
+					<p>• les fonctions éxécutives</p>
+					<p>• les interactions sociales</p>
+					<p>• etc.</p>
+				</div>
+			</div>
+		</div>
+		<div class="w-90 mx-10">
+			<lottie-player
+				class="w-110"
+				src="animation3.json"
+				background="transparent"
+				speed="1"
+				loop
+				autoplay
+			/>
+		</div>
+	</div>
+	<div class="pt-30 mb-30">
+		<h1 class="text-4xl text-center mb-10 font-black">A quoi sert un bilan neuropsychologique ?</h1>
+		<div class="flex flex-wrap justify-center mx-auto">
+			<div class="w-130 flex flex-col items-center m-5">
+				<lottie-player
+					class="h-70 mb-5"
+					src="animation11.json"
+					background="transparent"
+					speed="1"
+					loop
+					autoplay
+				/>
+				<p class="mb-2">
+					Chez l'enfant, il permet de dépister les troubles des apprentissages (troubles "dys",
+					TDAH, TND) ou un fonctionnement intellectuel atypique (déficience ou haut potentiel
+					intellectuel).
+				</p>
+				<p>
+					Il aide à la mise en place d'adaptations à l'école (tiers temps, PPRE, PAP) ou à la
+					maison.
+				</p>
+			</div>
+			<div class="w-130 flex flex-col items-center m-5">
+				<lottie-player
+					class="h-70 mb-5"
+					src="animation12.json"
+					background="transparent"
+					speed="1"
+					loop
+					autoplay
+				/>
+				<p class="mb-2">
+					Chez l’adulte, il est utile lorsqu'on rencontre des difficultés pour se concentrer, pour
+					mémoriser, pour interagir avec les autres ou pour maintenir un emploi.
+				</p>
+				<p>
+					Ces difficultés peuvent survenir suite à une lésion cérébrale, des addictions, une
+					dépression, un burn-out, des troubles des apprentissages non diagnostiqués, etc.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="flex flex-wrap justify-center mx-auto py-30 bg-blue text-white">
+		<div class="w-130">
+			<lottie-player src="animation4.json" background="transparent" speed="0.5" loop autoplay />
+		</div>
+		<div class="w-150 m-10">
+			<h1 class="text-4xl mb-5 font-black">Le déroulement d'un bilan</h1>
+			<div class="mb-15 font-light">
+				<h2 class="mb-1 font-bold">Premier entretien (45 min)</h2>
+				<p class="mb-3">
+					Le premier entretien permet de faire état de la demande concernant le bilan, de déterminer
+					la nature de celui-ci ou de la pertinence de l’évaluation. Il permet également de récolter
+					les données d’anamnèse pertinentes à sa réalisation.
+				</p>
+				<h2 class="mb-1 font-bold">Séances de test (2-3h)</h2>
+				<p class="mb-3">
+					Chaque séance dure 1h. Le nombre de séances varie entre 2 et 4 selon les besoins. Les
+					séances peuvent se faire en une ou plusieurs fois selon les capacités attentionnelles et
+					la fatigue de la personne.
+				</p>
+				<h2 class="mb-1 font-bold">Restitution des résultats (45 min)</h2>
+				<p class="mb-3">
+					La séance de restitution permet de reprendre la demande, les résultats et l’interprétation
+					de ceux-ci. Il permet d’apporter des éclairages sur l’impact des difficultés au quotidien
+					et d’apporter des pistes d’aménagement ou d’aide.
+				</p>
+				<h2 class="mb-1 font-bold">Compte rendu</h2>
+				<p class="mb-3">
+					Le compte rendu est ensuite envoyé par mail au format pdf dans les jours qui suivent la
+					restitution.
+				</p>
+			</div>
 
-		<h3 class="text-xl my-5">Final proposition</h3>
-		{#each poem as vers, idx}
-			<p>{idx == 0 ? '« ' : ''} {vers}</p>
-		{/each}
-		{#if Levenshtein(selectedText, correctedText) < Math.max(selectedText.length / 3, 5)}
-			<p class="text-green">{correctedText} »</p>
-		{:else}
-			<p class="text-red">{correctedText} »</p>
-		{/if}
-	{/if}
-{/if}
+			<div class="flex gap-2">
+				<Button class="bg-orange text-black" href="/infos">Prendre rendez-vous</Button>
+			</div>
+		</div>
+	</div>
+</div>
