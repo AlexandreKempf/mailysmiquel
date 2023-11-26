@@ -8,7 +8,7 @@
 
 <svelte:head>
 	<title>Maïlys Miquel</title>
-	<link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet" />
+	<link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
 </svelte:head>
 
 <nav
