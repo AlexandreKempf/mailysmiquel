@@ -122,7 +122,7 @@
 			<p>Le réglement du bilan peut se faire en une ou plusieurs fois.</p>
 		</div>
 	</div>
-	<div class="flex flex-wrap justify-center mx-auto py-30 bg-blue text-white">
+	<div class="flex flex-wrap justify-center py-30 bg-blue text-white">
 		<div class="w-150 my-10 mx-5">
 			<h1 class="text-4xl mb-5 font-black">Pourquoi ce tarif ?</h1>
 			<div class="mb-15 font-light">
@@ -145,15 +145,8 @@
 				</p>
 			</div>
 		</div>
-		<div class="w-90 mx-10">
-			<lottie-player
-				class="w-110"
-				src="animation13.json"
-				background="transparent"
-				speed="1"
-				loop
-				autoplay
-			/>
+		<div class="max-w-110 w-80%">
+			<lottie-player src="animation13.json" background="transparent" speed="1" loop autoplay />
 		</div>
 	</div>
 </div>
