@@ -15,7 +15,7 @@
 		<div class="w-130">
 			<lottie-player src="animation14.json" background="transparent" speed="1" autoplay />
 		</div>
-		<div class="w-110 m-10">
+		<div class="w-110 my-10 mx-5">
 			<h1 class="text-4xl mb-5 font-black">Maïlys Miquel</h1>
 			<p class="mb-2 font-light">
 				Je suis titulaire du master de neuropsychologie de l'Université Paris Descartes depuis 2016.

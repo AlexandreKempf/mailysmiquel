@@ -11,7 +11,7 @@
 </svelte:head>
 
 <div class="font-sans mt-40">
-	<div class="mx-10">
+	<div class="mx-5">
 		<h1 class="text-4xl font-black md:text-center my-5">Grille de tarifs</h1>
 		<p class="md:text-center mb-1 min-w-80%">
 			Le bilan neuropsychologique n'est pas remboursé par la Sécurité sociale, mais il est pris en
@@ -123,7 +123,7 @@
 		</div>
 	</div>
 	<div class="flex flex-wrap justify-center mx-auto py-30 bg-blue text-white">
-		<div class="w-150 m-10">
+		<div class="w-150 my-10 mx-5">
 			<h1 class="text-4xl mb-5 font-black">Pourquoi ce tarif ?</h1>
 			<div class="mb-15 font-light">
 				<p class="mb-3">

@@ -1,7 +1,3 @@
-<script>
-	import { Button } from 'flowbite-svelte';
-</script>
-
 <svelte:head>
 	<title>Maïlys Miquel - Infos</title>
 	<meta
@@ -12,7 +8,7 @@
 
 <div class="font-sans">
 	<div class="flex flex-wrap justify-center mx-auto py-30">
-		<div class="w-110 my-15 mx-10">
+		<div class="w-110 my-15 mx-5">
 			<h1 class="text-4xl mb-5 font-black">Informations pratiques</h1>
 			<p class="my-2 font-light">Le cabinet est ouvert le vendredi de 8h à 20h.</p>
 			<div class="my-2 flex items-center gap-3">
@@ -29,7 +25,6 @@
 			</div>
 			<div class="h-10"></div>
 			<p class="my-2 font-light">Les consultations se font sur rendez-vous uniquement.</p>
-			<!-- <Button class="my-2 bg-orange text-black">Prendre rendez-vous</Button> -->
 		</div>
 		<div class="w-130">
 			<lottie-player src="animation15.json" background="transparent" speed="1" autoplay />
