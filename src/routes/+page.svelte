@@ -4,7 +4,7 @@
 
 <div class="font-sans">
 	<div class="flex flex-wrap justify-center mx-auto py-30">
-		<div class="w-130">
+		<div class="w-70% lg:w-130">
 			<lottie-player src="animation10.json" background="transparent" speed="1" loop autoplay />
 		</div>
 		<div class="w-150 m-10">
@@ -44,23 +44,21 @@
 				</div>
 			</div>
 		</div>
-		<div class="w-90 mx-10">
-			<lottie-player
-				class="w-110"
-				src="animation3.json"
-				background="transparent"
-				speed="1"
-				loop
-				autoplay
-			/>
-		</div>
+		<lottie-player
+			class="w-70% lg:w-130"
+			src="animation3.json"
+			background="transparent"
+			speed="1"
+			loop
+			autoplay
+		/>
 	</div>
 	<div class="pt-30 mb-30">
 		<h1 class="text-4xl text-center mb-10 font-black">A quoi sert un bilan neuropsychologique ?</h1>
 		<div class="flex flex-wrap justify-center mx-auto">
 			<div class="w-130 flex flex-col items-center m-5">
 				<lottie-player
-					class="h-70 mb-5"
+					class="h-50 lg:h-70 mb-5"
 					src="animation11.json"
 					background="transparent"
 					speed="1"
@@ -79,7 +77,7 @@
 			</div>
 			<div class="w-130 flex flex-col items-center m-5">
 				<lottie-player
-					class="h-70 mb-5"
+					class="h-50 lg:h-70 mb-5"
 					src="animation12.json"
 					background="transparent"
 					speed="1"
@@ -98,7 +96,7 @@
 		</div>
 	</div>
 	<div class="flex flex-wrap justify-center mx-auto py-30 bg-blue text-white">
-		<div class="w-130">
+		<div class="w-70% md: max-w-100 lg:max-w-130">
 			<lottie-player src="animation4.json" background="transparent" speed="0.5" loop autoplay />
 		</div>
 		<div class="w-150 m-10">
