@@ -24,7 +24,7 @@
 				</p>
 				<p>
 					Il est utile pour les enfants en difficulté scolaire, pour les adultes s'interrogeant sur
-					leur fonctionnement intellectuel ou cognitif ou ayant souffert de lésions cérébrales, etc.
+					leur fonctionnement intellectuel ou cognitif ou ayant souffert de lésions cérébrales.
 				</p>
 			</div>
 			<div class="flex gap-2">

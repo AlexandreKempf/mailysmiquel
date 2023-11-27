@@ -21,8 +21,8 @@
 				Je suis titulaire du master de neuropsychologie de l'Université Paris Descartes depuis 2016.
 			</p>
 			<p class="mb-2 font-light">
-				J'ai de l'expérience aupres d'enfants souffrant de troubles des apprentissages ou de
-				poly-handicap, de personnes ayant subit des traumas crâniens, des AVC ou souffrant de
+				J'ai acquis l'expérience auprès d'enfants souffrant de troubles des apprentissages ou de
+				poly-handicap, de personnes ayant subi des traumas crâniens, des AVC ou souffrant de
 				troubles psychiatriques ou d'addictions.
 			</p>
 			<p class="mb-2 font-light">

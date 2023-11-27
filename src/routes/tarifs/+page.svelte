@@ -67,7 +67,7 @@
 					</div>
 					<div class="flex items-center gap-3 mx-5 my-2">
 						<div class="i-iconoir-check-circle text-blue w-7 h-7" />
-						<p class="font-bold">Inclus le premier entretien</p>
+						<p class="font-bold">Premier entretien inclus</p>
 					</div>
 					<div class="flex items-center gap-3 mx-5 my-2">
 						<div class="i-iconoir-check-circle text-blue w-7 h-7" />
