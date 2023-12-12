@@ -2,6 +2,10 @@
 	import 'virtual:uno.css';
 	import '@unocss/reset/tailwind-compat.css';
 	import { Button } from 'flowbite-svelte';
+	import { dev } from '$app/environment';
+	import { inject } from '@vercel/analytics';
+
+	inject({ mode: dev ? 'development' : 'production' });
 
 	let isMenuDisplayed = false;
 </script>
