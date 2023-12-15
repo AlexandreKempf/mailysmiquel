@@ -6,7 +6,7 @@
 	<title>Maïlys Miquel</title>
 	<meta
 		name="description"
-		content="Mailys Miquel et son parcours académique et professionnel. Neuropsychologue en cabinet libéral vers Langon, en Gironde."
+		content="Mailys Miquel Neuropsychologue | Compétences et qualifications."
 	/>
 </svelte:head>
 

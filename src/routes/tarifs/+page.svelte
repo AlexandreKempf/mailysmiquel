@@ -6,7 +6,7 @@
 	<title>Maïlys Miquel - Tarifs</title>
 	<meta
 		name="description"
-		content="Tarifs bilans neurospychologiques de Mailys Miquel, Langon en Gironde."
+		content="Maïlys Miquel Neuropsychologue Langon | Quel prix pour un bilan neuropsychologique ?"
 	/>
 </svelte:head>
 

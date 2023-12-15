@@ -6,7 +6,11 @@
 	<title>Maïlys Miquel - Accueil</title>
 	<meta
 		name="description"
-		content="Neuropsychologue Maïlys Miquel en Gironde, Langon, Barsac, Bazas, Cérons. Accueil pour bilans neuropsychologiques, trouble de mémoire, d'attention."
+		content="Neuropsychologue Langon | Besoin d'un bilan neuropsychologique ?"
+	/>
+	<meta
+		name="keywords"
+		content="Neurophychologue, Langon, Barsac, Gironde, Bilan, Cognitif, Psychologue, Mailys, Miquel"
 	/>
 </svelte:head>
 

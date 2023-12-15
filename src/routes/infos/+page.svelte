@@ -2,7 +2,7 @@
 	<title>Maïlys Miquel - Infos</title>
 	<meta
 		name="description"
-		content="Neuropsychologie Maïlys Miquel et informations sur son cabinet en Gironde, Langon. Pour enfants, adultes et personnes agées."
+		content="Neuropsychologie Maïlys Miquel | Horaires, lieux, et autres informations."
 	/>
 </svelte:head>
 
