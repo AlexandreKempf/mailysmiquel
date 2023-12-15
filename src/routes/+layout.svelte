@@ -44,8 +44,11 @@
 				}}><div class="i-iconoir-menu h-5" /></Button
 			>
 		</div>
-		<Button href="/infos" color="blue" class="bg-orange text-black font-bold"
-			>Prendre rendez-vous</Button
+		<Button
+			href="https://docorga.com/praticien/6579db9e0491f3ad5982f2dc"
+			color="blue"
+			target="_blank"
+			class="bg-orange text-black font-bold">Prendre rendez-vous</Button
 		>
 	</div>
 </nav>

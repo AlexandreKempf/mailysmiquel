@@ -29,7 +29,11 @@
 			</div>
 			<div class="flex gap-2">
 				<Button class="text-black" color="alternative" href="/tarifs">Consulter les tarifs</Button>
-				<Button class="bg-orange text-black" href="/infos">Prendre rendez-vous</Button>
+				<Button
+					class="bg-orange text-black"
+					target="_blank"
+					href="https://docorga.com/praticien/6579db9e0491f3ad5982f2dc">Prendre rendez-vous</Button
+				>
 			</div>
 		</div>
 	</div>
@@ -139,7 +143,11 @@
 			</div>
 
 			<div class="flex gap-2">
-				<Button class="bg-orange text-black" href="/infos">Prendre rendez-vous</Button>
+				<Button
+					class="bg-orange text-black"
+					target="_blank"
+					href="https://docorga.com/praticien/6579db9e0491f3ad5982f2dc">Prendre rendez-vous</Button
+				>
 			</div>
 		</div>
 	</div>
