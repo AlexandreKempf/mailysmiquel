@@ -10,7 +10,7 @@
 	/>
 	<meta
 		name="keywords"
-		content="Neurophychologue, Langon, Barsac, Gironde, Bilan, Cognitif, Psychologue, Mailys, Miquel"
+		content="Neurophychologue, Langon, Cadillac, Barsac, Gironde, Bilan, Cognitif, Psychologue, Mailys, Miquel"
 	/>
 </svelte:head>
 
@@ -20,7 +20,9 @@
 			<lottie-player src="animation10.json" background="transparent" speed="1" loop autoplay />
 		</div>
 		<div class="w-150">
-			<h1 class="text-4xl mb-5 font-black">Besoin d'un bilan neuropsychologique ?</h1>
+			<h1 class="text-4xl mb-5 max-w-130 font-black">
+				Besoin d'un bilan neuropsychologique à Langon ou Cadillac ?
+			</h1>
 			<div class="mb-15 font-light">
 				<p class="mb-2">
 					Un bilan neuropsychologique, aussi appelé bilan cognitif ou bilan psychométrique, évalue
