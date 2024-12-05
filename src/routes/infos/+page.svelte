@@ -10,11 +10,11 @@
 	<div class="flex flex-wrap justify-center mx-auto py-30">
 		<div class="w-110 my-15 mx-5">
 			<h1 class="text-4xl mb-5 font-black">Informations pratiques</h1>
-			<p class="my-2 font-light">Le cabinet est ouvert le vendredi de 8h à 20h.</p>
-			<p class="my-2 font-light mb-10">À 15 min de Langon et 10 min de Cadillac.</p>
+			<p class="my-2 font-light">Le cabinet est ouvert le vendredi et le samedi de 9h à 20h.</p>
+			<p class="my-2 font-light mb-10">À 10 min de Vannes.</p>
 			<div class="my-2 flex items-center gap-3">
 				<div class="i-iconoir-map-pin" />
-				<p class="font-light">10 Pl. Franck Chassaigne, 33720 Barsac</p>
+				<p class="font-light">9 rue des Sports, 56450 Theix-Noyalo</p>
 			</div>
 			<div class="my-2 flex items-center gap-3">
 				<div class="i-iconoir-mail" />

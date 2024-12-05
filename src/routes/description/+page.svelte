@@ -30,10 +30,6 @@
 				âgées. Je réalise des bilans neuropsychologiques, de la remédiation et de la stimulation
 				cognitive.
 			</p>
-			<p class="mb-2 font-light">
-				Habitante de l'agglomération de Langon depuis 2020, j'ai décidé d'y installer mon cabinet
-				pour répondre à la demande croissante.
-			</p>
 			<div class="h-2" />
 			<Button
 				class="bg-blue text-white"

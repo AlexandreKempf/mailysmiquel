@@ -54,7 +54,7 @@
 			</div>
 			<div class="h-150 w-100 rounded-3xl border-2 bg-beige flex flex-col">
 				<h2 class="flex-none text-2xl font-black text-center m-5">Bilan neuropsychologique</h2>
-				<p class="flex-none text-2xl text-center mx-5 mb-10 font-bold">300€-350€*</p>
+				<p class="flex-none text-2xl text-center mx-5 mb-10 font-bold">350€-400€*</p>
 
 				<div class="mx-5 flex flex-col grow">
 					<div class="flex items-center gap-3 mx-5 my-2">
