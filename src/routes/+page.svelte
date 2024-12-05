@@ -149,12 +149,12 @@
 				</p>
 			</div>
 
+			<!-- href="https://docorga.com/praticien/6579db9e0491f3ad5982f2dc"-->
 			<div class="flex gap-2">
 				<Button
-					class="bg-orange text-black"
-					target="_blank"
-					href="https://docorga.com/praticien/6579db9e0491f3ad5982f2dc">Prendre rendez-vous</Button
-				>
+				class="bg-orange text-black"
+				target="_blank"
+				>Prendre rendez-vous</Button>
 			</div>
 		</div>
 	</div>
