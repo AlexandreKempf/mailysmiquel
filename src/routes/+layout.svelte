@@ -44,8 +44,8 @@
 				}}><div class="i-iconoir-menu h-5" /></Button
 			>
 		</div>
-		<!-- href="https://docorga.com/praticien/6579db9e0491f3ad5982f2dc" -->
 		<Button
+			href="https://www.doctolib.fr/psychologue/theix-noyalo/mailys-miquel-theix-noyalo"
 			color="blue"
 			target="_blank"
 			class="bg-orange text-black font-bold">Prendre rendez-vous</Button

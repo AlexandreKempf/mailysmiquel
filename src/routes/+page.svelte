@@ -35,12 +35,11 @@
 			</div>
 			<div class="flex gap-2">
 				<Button class="text-black" color="alternative" href="/tarifs">Consulter les tarifs</Button>
-				<!-- href="https://docorga.com/praticien/6579db9e0491f3ad5982f2dc" -->
 				<Button
+					href="https://www.doctolib.fr/psychologue/theix-noyalo/mailys-miquel-theix-noyalo"
 					class="bg-orange text-black"
-					target="_blank"
-					>Prendre rendez-vous</Button
-					>
+					target="_blank">Prendre rendez-vous</Button
+				>
 			</div>
 		</div>
 	</div>
@@ -149,12 +148,12 @@
 				</p>
 			</div>
 
-			<!-- href="https://docorga.com/praticien/6579db9e0491f3ad5982f2dc"-->
 			<div class="flex gap-2">
 				<Button
-				class="bg-orange text-black"
-				target="_blank"
-				>Prendre rendez-vous</Button>
+					href="https://www.doctolib.fr/psychologue/theix-noyalo/mailys-miquel-theix-noyalo"
+					class="bg-orange text-black"
+					target="_blank">Prendre rendez-vous</Button
+				>
 			</div>
 		</div>
 	</div>
