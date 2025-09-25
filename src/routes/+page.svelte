@@ -6,11 +6,11 @@
 	<title>Maïlys Miquel - Accueil</title>
 	<meta
 		name="description"
-		content="Neuropsychologue Vannes | Besoin d'un bilan neuropsychologique ?"
+		content="Neuropsychologue Vannes, Morbihan | Besoin d'un bilan neuropsychologique ?"
 	/>
 	<meta
 		name="keywords"
-		content="Neurophychologue, Vannes, Theix, Morbihan, Bilan, Cognitif, Psychologue, Mailys, Miquel"
+		content="Neurophychologue, Vannes, Theix, Morbihan, Bretagne, Sarzeau, Bilan, Cognitif, Psychologue, Mailys, Miquel"
 	/>
 </svelte:head>
 
@@ -21,7 +21,7 @@
 		</div>
 		<div class="w-150">
 			<h1 class="text-4xl mb-5 max-w-130 font-black">
-				Besoin d'un bilan neuropsychologique à Vannes ?
+				Besoin d'un bilan neuropsychologique à Vannes dans le Morbihan ?
 			</h1>
 			<div class="mb-15 font-light">
 				<p class="mb-2">
