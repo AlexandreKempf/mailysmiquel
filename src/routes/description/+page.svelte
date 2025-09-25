@@ -32,7 +32,7 @@
 			</p>
 			<div class="h-2" />
 			<Button
-				class="bg-blue text-white"
+				class="bg-blue text-white p-3"
 				href="https://www.linkedin.com/in/mailys-miquel/"
 				target="_blank">Mon CV</Button
 			>

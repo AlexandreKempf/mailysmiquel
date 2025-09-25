@@ -17,7 +17,8 @@
 <div class="font-sans">
 	<div class="flex flex-wrap justify-center mx-5 py-30">
 		<div class="w-70% max-w-130">
-			<lottie-player src="animation10.json" background="transparent" speed="1" loop autoplay />
+			<lottie-player src="animation10.json" background="transparent" speed="1" loop autoplay
+			></lottie-player>
 		</div>
 		<div class="w-150">
 			<h1 class="text-4xl mb-5 max-w-130 font-black">
@@ -34,10 +35,12 @@
 				</p>
 			</div>
 			<div class="flex gap-2">
-				<Button class="text-black" color="alternative" href="/tarifs">Consulter les tarifs</Button>
+				<Button class="text-black p-3" color="alternative" href="/tarifs"
+					>Consulter les tarifs</Button
+				>
 				<Button
 					href="https://www.doctolib.fr/psychologue/theix-noyalo/mailys-miquel-theix-noyalo"
-					class="bg-orange text-black"
+					class="bg-orange text-black p-3"
 					target="_blank">Prendre rendez-vous</Button
 				>
 			</div>
@@ -69,7 +72,7 @@
 			speed="1"
 			loop
 			autoplay
-		/>
+		></lottie-player>
 	</div>
 	<div class="pt-30 mb-30">
 		<h1 class="text-4xl mx-5 md:text-center mb-10 font-black">
@@ -84,7 +87,7 @@
 					speed="1"
 					loop
 					autoplay
-				/>
+				></lottie-player>
 				<p class="mb-2">
 					Chez l'enfant, il permet de dépister les troubles des apprentissages (troubles "dys",
 					TDAH, TND) ou un fonctionnement intellectuel atypique (déficience ou haut potentiel
@@ -95,7 +98,7 @@
 					maison.
 				</p>
 			</div>
-			<div class="w-10" />
+			<div class="w-10"></div>
 			<div class="w-130 flex flex-col my-5">
 				<lottie-player
 					class="h-60 md:h-70 mb-5"
@@ -104,7 +107,7 @@
 					speed="1"
 					loop
 					autoplay
-				/>
+				></lottie-player>
 				<p class="mb-2">
 					Chez l’adulte, il est utile lorsqu'on rencontre des difficultés pour se concentrer, pour
 					mémoriser, pour interagir avec les autres ou pour maintenir un emploi.
@@ -118,7 +121,8 @@
 	</div>
 	<div class="flex flex-wrap justify-center mx-auto py-30 bg-blue text-white">
 		<div class="w-70% max-w-110">
-			<lottie-player src="animation4.json" background="transparent" speed="0.5" loop autoplay />
+			<lottie-player src="animation4.json" background="transparent" speed="0.5" loop autoplay
+			></lottie-player>
 		</div>
 		<div class="w-150 my-10 mx-5">
 			<h1 class="text-4xl mb-5 font-black">Le déroulement d'un bilan</h1>
@@ -151,7 +155,7 @@
 			<div class="flex gap-2">
 				<Button
 					href="https://www.doctolib.fr/psychologue/theix-noyalo/mailys-miquel-theix-noyalo"
-					class="bg-orange text-black"
+					class="bg-orange text-black p-3"
 					target="_blank">Prendre rendez-vous</Button
 				>
 			</div>

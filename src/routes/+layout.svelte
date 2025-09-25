@@ -38,7 +38,7 @@
 			<Button
 				href="/infos"
 				color="alternative"
-				class="text-black font-bold"
+				class="text-black font-bold p-3"
 				on:click={() => {
 					isMenuDisplayed = !isMenuDisplayed;
 				}}><div class="i-iconoir-menu h-5" /></Button
@@ -48,7 +48,7 @@
 			href="https://www.doctolib.fr/psychologue/theix-noyalo/mailys-miquel-theix-noyalo"
 			color="blue"
 			target="_blank"
-			class="bg-orange text-black font-bold">Prendre rendez-vous</Button
+			class="bg-orange text-black font-bold p-3">Prendre rendez-vous</Button
 		>
 	</div>
 </nav>
